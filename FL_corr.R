@@ -1,7 +1,7 @@
 #' input mean_x, mean_y, Var_x, Var_y, correlation (x,y)
 #' install.packages : readxl
 #' no missing value is allowed
-#' Please refer to the excel file for the data format.
+#' Please refer to the excel(.csv) file for the data format.
 #' @excemples
 #' \dontrun{
 #'  #simulation data
