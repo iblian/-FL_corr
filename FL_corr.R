@@ -19,7 +19,8 @@
 #'   write.csv(data, file = paste0("C:/Users/Users/Desktop/FL_corr.csv"), row.names = FALSE)
 #'  }
 
-#'install.packages : readxl
+# install.packages : readxl
+# Please note that changing your data file location
  
 data<-read.csv("your data path/test.csv",header = T)
 FL_corr <- function(data) {
