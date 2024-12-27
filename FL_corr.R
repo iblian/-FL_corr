@@ -22,7 +22,7 @@
 # install.packages : readxl
 # Please note that changing your data file location
  
-data<-read.csv("your data path/test.csv",header = T)
+data<-read.csv("your data path/FL_corr.csv",header = T)
 FL_corr <- function(data) {
   # read data
   data=data
