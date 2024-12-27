@@ -16,7 +16,7 @@
 #'   varY_i <- c(var(A$Y),var(B$Y),var(C$Y))  # Y Varience
 #'   n_i <- c(nrow(A),nrow(B),nrow(C)) # Sample size
 #'   data<-cbind(r_i,Xmean_i,Ymean_i,varX_i ,varY_i,n_i)
-#'   write.csv(data, file = paste0("C:/Users/Users/Desktop/test.csv"), row.names = FALSE)
+#'   write.csv(data, file = paste0("C:/Users/Users/Desktop/FL_corr.csv"), row.names = FALSE)
 #'  }
 
 #'install.packages : readxl
